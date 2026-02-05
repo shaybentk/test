@@ -1,0 +1,22 @@
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2026-01-29 21:11:57 HKT; 1 week 0 days ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 1192 (sshd)
+      Tasks: 1 (limit: 77025)
+     Memory: 3.5M
+        CPU: 2.341s
+     CGroup: /system.slice/ssh.service
+             └─1192 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+Feb 04 01:07:23 ubuntu22 sshd[28228]: Accepted password for hodfords from 10.10.10.1 port 64271 ssh2
+Feb 04 01:07:23 ubuntu22 sshd[28228]: pam_unix(sshd:session): session opened for user hodfords(uid=1000) by (uid=0)
+Feb 04 14:23:13 ubuntu22 sshd[32101]: Accepted password for hodfords from 10.10.10.1 port 50791 ssh2
+Feb 04 14:23:13 ubuntu22 sshd[32101]: pam_unix(sshd:session): session opened for user hodfords(uid=1000) by (uid=0)
+Feb 04 14:29:24 ubuntu22 sshd[32268]: Accepted password for hodfords from 10.10.10.1 port 50920 ssh2
+Feb 04 14:29:24 ubuntu22 sshd[32268]: pam_unix(sshd:session): session opened for user hodfords(uid=1000) by (uid=0)
+Feb 04 15:26:31 ubuntu22 sshd[32428]: Accepted password for hodfords from 10.10.10.1 port 51257 ssh2
+Feb 04 15:26:31 ubuntu22 sshd[32428]: pam_unix(sshd:session): session opened for user hodfords(uid=1000) by (uid=0)
+Feb 05 18:28:52 ubuntu22 sshd[34163]: Accepted password for hodfords from 10.10.10.1 port 51199 ssh2
+Feb 05 18:28:52 ubuntu22 sshd[34163]: pam_unix(sshd:session): session opened for user hodfords(uid=1000) by (uid=0)
